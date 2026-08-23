@@ -42,6 +42,7 @@ AnthropicClient client = AnthropicOkHttpClient.builder()
 | Audit | Gateway Recent calls; `POST /audit_log/` |
 | MCP sync | Control Plane / Connected Infrastructure UI |
 | Register agent | `POST /v1/agents/register` (HTTP + `X-Kimss-Key`) |
+| Vault BYO endpoint + token cap | `POST/PATCH /api/v1/custom-model-endpoints` — see `/docs/custom_model_endpoints` |
 
 ## Errors
 
@@ -50,4 +51,5 @@ AnthropicClient client = AnthropicOkHttpClient.builder()
 | 403 | `agent_disabled` | Kill switch — stop |
 | 403 | `subscription_required` | Stop; upgrade / switch workspace |
 | 429 | `governed_requests_exhausted` / `credit_*` | Stop; surface to user |
+| 429 | `custom_endpoint_cap_exceeded` | Provider token cap (`cap_action=block`) — raise cap or wait for next month |
 | 429 | `rate_limit_exceeded` | Backoff / Retry-After |

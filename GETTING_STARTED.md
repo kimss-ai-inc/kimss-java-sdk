@@ -4,7 +4,7 @@
 
 ## Step 1 — Sign In & Vault
 
-Vault your provider under **Governance → Connected Infrastructure**.
+Vault your provider under **Governance → Provider Vault** (Connected Infrastructure). Production requires `https://` URLs. Optional per-endpoint monthly token caps: [docs](https://kimss.ai/docs/custom_model_endpoints).
 
 ## Step 2 — Mint Key
 

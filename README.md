@@ -54,7 +54,7 @@ flowchart LR
 
 ### 1. Sign In & Vault
 
-Log into [Kimss AI](https://kimss.ai/app/signup). Vault your provider endpoint under **Governance → Connected Infrastructure**.
+Log into [Kimss AI](https://kimss.ai/app/signup). Vault your provider endpoint under **Governance → Provider Vault** (Connected Infrastructure). Optional **monthly token caps** per endpoint guard provider spend — [docs](https://kimss.ai/docs/custom_model_endpoints).
 
 ### 2. Mint Key
 
@@ -78,6 +78,7 @@ The `ai.kimss:kimss-java` artifact is **not** the inference path. Use REST + Gov
 | Audit | Gateway Recent calls; `POST /audit_log/` |
 | MCP sync | Control Plane registration UI |
 | Register agent | `POST /v1/agents/register` with `X-Kimss-Key` |
+| Vault endpoint + token cap | `POST/PATCH /api/v1/custom-model-endpoints` — [docs](https://kimss.ai/docs/custom_model_endpoints) |
 
 `KimssClient.agents().run` and `models().create` are **`@Deprecated`**.
 
