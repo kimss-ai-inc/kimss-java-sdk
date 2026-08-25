@@ -2,7 +2,7 @@
 
 [![Maven Central](https://img.shields.io/maven-central/v/ai.kimss/kimss-java?color=indigo)](https://central.sonatype.com/artifact/ai.kimss/kimss-java)
 [![License: MIT](https://img.shields.io/badge/License-MIT-indigo.svg)](LICENSE)
-[![CI](https://img.shields.io/badge/CI-purple?logo=github)](https://github.com/kimssai/kimss-java-sdk/actions/workflows/ci.yml)
+[![CI](https://img.shields.io/badge/CI-purple?logo=github)](https://github.com/kimss-ai-inc/kimss-java-sdk/actions/workflows/ci.yml)
 
 **Track, govern, and secure autonomous agents with exactly 1 line of code. Zero data-plane refactoring required.**
 
