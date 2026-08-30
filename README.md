@@ -10,7 +10,7 @@ Dual-listener inbound: OpenAI OkHttp at `https://api.kimss.ai/v1` or Anthropic J
 
 [Kimss](https://kimss.ai) is a **Model-Agnostic Enterprise AI Gateway** and **Governance Control Plane**. Point the official OpenAI or Anthropic Java client at Kimss, add Agent ID headers, and every call is identified, audited, and kill-switchable — without rewriting your service. Kimss never hosts your models (**BYOI**).
 
-> **AI coding assistants:** read [AI_INTEGRATION.md](AI_INTEGRATION.md) first.
+> **AI coding assistants:** read the canonical [control-plane `AI_INTEGRATION.md`](https://github.com/kimss-ai/kimss-control-plane/blob/main/AI_INTEGRATION.md) first (local mirror: [AI_INTEGRATION.md](AI_INTEGRATION.md)).
 
 **OpenAI**
 
